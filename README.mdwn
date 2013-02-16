@@ -2,7 +2,7 @@
 
 7. In Mac OS X:
     7. Join the split AppleDouble files:
-        7. `FixupResourceForks -nodelete workouts/$N`
+        7. `/System/Library/CoreServices/FixupResourceForks workouts/$N`
         7. XXX necessary?
 7. In Windows XP:
     7. Open and modify in AppleWorks 5.
@@ -10,6 +10,6 @@
     7. Save.
 7. In Mac OS X:
     7. Re-split the AppleWorks doc into AppleDouble:
-        7. `SplitForks -s workouts/$N/workout${N}.cwk`
+        7. `/usr/bin/SplitForks -s workouts/$N/workout${N}.cwk`
         7. XXX necessary?
     7. Commit and push the modified `.cwk` (both files) and `.pdf`.
