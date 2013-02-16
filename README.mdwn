@@ -1,34 +1,13 @@
-<pre>
-20130114       245
-20130115       243
-20130116 08:45 241.2
-20130117 07:10 241.8
-20130118 09:45 241.6
-20130119 10:40 242.6
-20130120 08:30 241.8
-20130121 09:00 239.4
-20130122 08:45 239.6
-20130123 11:00 238.6
-20130124 11:00 238.4
-20130125 09:30 239.8
-20130126 08:00 238.8
-20130127 10:15 236.8
-20130128 08:15 235.4
-20130129 09:00 235.2
-20130130 09:30 236.6
-20130131 08:00 237.8
-20130201 06:30 239.6
-20130202 08:30 236.8
-20130203 08:00 237.0
-20130204 06:30 235.8
-20130205 08:30 234.6
-20130206 08:30 234.4
-20130207 06:30 235.2
-20130208 06:30 241.1 (Indiana)
-20130209 07:00 237.8 (Indiana)
-20130210 10:30 237.8 (Indiana)
-20130211 08:30 237.8 (Indiana)
-20130212 07:30 237.4 (Indiana)
-20130213 08:30 237.0 (Indiana)
-20130214 06:30 234.6
-</pre>
+# Editing ancient ClarisWorks workout templates
+
+7. In Mac OS X:
+    7. Join the split AppleDouble files:
+        7. XXX necessary? steps
+7. In Windows XP:
+    7. Open and modify in AppleWorks 5.
+    7. Print to PDF with PDFCreator.
+    7. Save.
+7. In Mac OS X:
+    7. Re-split the AppleWorks doc into AppleDouble:
+        7. XXX necessary? steps
+    7. Commit and push the modified `.cwk` (both files) and `.pdf`.
