@@ -1,3 +1,7 @@
+[[burndown.png]]
+
+-----
+
 # Editing ancient ClarisWorks workout templates
 
 7. In Mac OS X:
