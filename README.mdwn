@@ -1,4 +1,4 @@
-[[burndown.png]]
+[[raw/master/burndown.png]]
 
 -----
 
