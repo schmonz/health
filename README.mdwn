@@ -1,4 +1,4 @@
-[[raw/master/burndown.png]]
+[Burndown](https://raw.github.com/schmonz/health/master/burndown.png)
 
 -----
 
