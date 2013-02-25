@@ -5,3 +5,4 @@ commit: burndown.png
 
 burndown.png: burndown.gnu weight.txt
 	cat burndown.gnu weight.txt | gnuplot > burndown.png
+	cp burndown.png ~/Dropbox/LatestBurndown
