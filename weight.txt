@@ -46,3 +46,4 @@
 20130228 05:30 230.4
 20130301 07:00 245.0 (Arizona, no scale)
 20130302 08:00 245.0 (Arizona, no scale)
+20130303 09:00 245.0 (Arizona, no scale)
