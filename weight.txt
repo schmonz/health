@@ -47,3 +47,4 @@
 20130301 07:00 245.0 (Arizona, no scale)
 20130302 08:00 245.0 (Arizona, no scale)
 20130303 09:00 245.0 (Arizona, no scale)
+20130304 07:30 245.0 (NYC, straight to office)
