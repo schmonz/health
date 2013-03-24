@@ -67,3 +67,4 @@
 20130321 17:00 245.0 (Berlin, no scale)
 20130322 12:00 245.0 (Berlin, no scale)
 20130323 12:30 245.0 (Berlin, no scale)
+20130324 12:00 245.0 (Berlin, no scale)
