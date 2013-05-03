@@ -106,3 +106,4 @@
 20130430 06:00 245.0 (Colorado, no scale)
 20130501 08:00 245.0 (Colorado, no scale)
 20130502 09:00 245.0 (Colorado, no scale)
+20130503 07:00 245.0 (Colorado, no scale)
