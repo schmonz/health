@@ -108,3 +108,4 @@
 20130502 09:00 245.0 (Colorado, no scale)
 20130503 07:00 245.0 (Colorado, no scale)
 20130504 07:30 245.0 (Colorado, no scale)
+20130505 07:00 245.0 (Utah, no scale)
