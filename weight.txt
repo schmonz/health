@@ -110,3 +110,4 @@
 20130504 07:30 245.0 (Colorado, no scale)
 20130505 07:00 245.0 (Utah, no scale)
 20130506 07:30 226.0 (Westin Las Vegas)
+20130507 07:30 227.0 (Westin Las Vegas)
