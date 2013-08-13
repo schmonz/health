@@ -207,3 +207,4 @@
 20130810 08:00 245.0 (Michigan, no scale)
 20130811 07:00 245.0 (Michigan, no scale)
 20130812 09:30 245.0 (Michigan, no scale)
+20130813 11:00 245.0 (Megabus, no scale)
