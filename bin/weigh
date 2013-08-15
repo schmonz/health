@@ -1,0 +1,45 @@
+#!/bin/sh
+
+die() {
+	local _exitcode
+	_exitcode=$1; shift
+
+	echo >&2 "$@"
+	exit ${_exitcode}
+}
+
+usage() {
+	die 77 "usage:" $(basename $0) "<weight> [optionalcomment]"
+}
+
+generate_entry() {
+	local _date _time _weight _optionalcomment
+	_weight=$1;		shift
+	_optionalcomment=$1;	shift
+	_date=$(date '+%Y%m%d')
+	_time=$(date '+%H:%M')
+
+	if [ -n "${_optionalcomment}" ]; then
+		_optionalcomment=" (${_optionalcomment})"
+	fi
+
+	echo "${_date} ${_time} ${_weight}${_optionalcomment}"
+}
+
+top_of_repo() {
+	dirname $(dirname $0)
+}
+
+commit_and_push() {
+	make
+}
+
+main() {
+	[ $# -ge 1 ] || usage
+	cd $(top_of_repo)
+	generate_entry "$@" >> 'weight.txt'
+	commit_and_push
+}
+
+main "$@"
+exit $?
