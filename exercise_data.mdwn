@@ -1,0 +1,99 @@
+I work out at 2 gyms (so far).
+
+I have 2 workout routines (so far).
+
+Actually the workout routines vary by gym. Some machines exist in
+one gym but not the other, and vice versa. Sometimes the nature of
+the exercise differs significantly. To work my triceps at Planet
+Fitness in Inwood, I use a purpose-specific machine and push over
+130 pounds. To work my triceps at SRSC in Bloomington, I do some
+weird motion with a cross-trainer Matrix machine downstairs, struggle
+with 35 pounds, and hate it.
+
+Even for machines that exist in all my gyms and are similar to each
+other, they're not identical. The quality of motion (smoothness,
+changes in inertial moment within the rep, etc.) can differ
+significantly.
+
+Even for machines where the motion and resistance is very similar
+and the amount of weight I can push is the same, the seat settings
+may differ.
+
+So what I'm doing is really two workout routines (so far) at each
+of two gyms (so far). Or to keep it really simple, maybe it's just
+four routines, each with their own data. I sometimes want to compare
+an exercise across routines, but the rules for that are fuzzy and
+for now I can let them keep living in my head.
+
+For each machine I repeatedly use at each gym, the data to track are:
+
+- Gym location
+- Machine location
+- Machine name
+- Default seat settings (a hash, arbitrarily many keys, arbitrary names)
+- Default sequence number (I usually have an order)
+
+For each set I perform on each machine, the data to track are:
+
+- Position in 
+- Actual seat settings (usually just the defaults, but sometimes not)
+- Weight (fill in advance?)
+- Reps (fill afterward)
+- Time under load (fill afterward, where available)
+
+The best way to strength-train is with a trainer or workout partner.
+I don't have one. Maybe there are circumstances under which it'd
+be worth adding the coordination and/or financial cost, but I'm not
+currently having those circumstances.
+
+That means I have to configure machines for myself, push myself,
+and record my own data.
+
+I don't like having my phone with me because it's a distraction.
+So I've been recording my data with paper and pen. The historical
+data aren't usually tremendously important, but it's good to have
+and be able to analyze. The recent data are pretty important, and
+being one coffee spill (or misplaced piece of paper) away from not
+having them anymore is bothersome.
+
+Under the right conditions, the phone doesn't have to be a distraction.
+Airplane mode prevents externally induced notifications. If I'm
+sure to turn off alarms and reminder alerts, the phone is just a
+thing in my pocket, not much different from paper and pen.
+
+If the phone's not a distraction, then it can be made into a useful
+strength-training tool. An HTML5 or native application could load
+up today's expected routine, sequence of machines, seat settings,
+and weights (manually, on a schedule, or location-sensitive). Then
+I could go into distraction-free mode, follow or change the sequence,
+use or override the seat settings, use or override the suggested
+weights, do the exercise, then enter my reps and time under load.
+As long as I don't have to worry about my new data being lost, this
+would streamline my time in the gym without distraction.
+
+When I get home, the application could (location-sensitively, or
+just by being online again) send the new data somewhere. Where? I
+want my workout data to be tracked in git (because I want everything
+important to be tracked in git) and posted publicly (which for now
+means GitHub, but later might be a public remote I maintain myself).
+
+In order to `git commit` the new data, the application would either
+need an installed git and a local repo (easy for hosted webapp,
+harder for local webapp or native app), or a trust relationship
+with a confederate service elsewhere that has git and a repo. In
+order to `git push` the new local commit, the application would
+need a trust relationship with the remote. In order to reliably
+push, I would either need to guarantee (somehow) that there will
+never be a merge conflict, or guarantee (somehow) that the app can
+always resolve merge conflicts. Since it's simple data, and git,
+if a merge goes bad it should be fairly easy to clean up afterward.
+
+Writing a native iOS app sounds fun. I really want to write one.
+But that means wasted effort if I ever switch to another phone
+platform (or else a reason that might keep me from doing so).
+
+Writing a webapp with local storage sounds sort of fun. I want to
+know how all that works, but am less excited about it than native
+iOS programming. Also I worry more about losing data, not for any
+particular reason, just my default suspicion. But if it works and
+works well, I can use it anywhere.
