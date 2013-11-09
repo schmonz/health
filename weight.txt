@@ -295,3 +295,4 @@
 20131106 08:47 221.0 (Indiana)
 20131107 08:22 245.0 (Highland Park, no scale)
 20131108 09:40 245.0 (Highland Park, no scale)
+20131109 10:09 245.0 (Highland Park, no scale)
