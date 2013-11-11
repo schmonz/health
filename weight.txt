@@ -297,3 +297,4 @@
 20131108 09:40 245.0 (Highland Park, no scale)
 20131109 10:09 245.0 (Highland Park, no scale)
 20131110 10:46 245.0 (Highland Park, no scale)
+20131111 09:04 219.0
