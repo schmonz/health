@@ -324,3 +324,4 @@
 20131205 07:40 245.0 (Montreal, no scale)
 20131206 08:33 245.0 (Montreal, no scale)
 20131207 10:34 215.0 (Indiana)
+20131208 10:04 215.8 (Indiana)
