@@ -330,3 +330,4 @@
 20131211 09:39 214.0 (Indiana)
 20131212 10:39 216.2 (Indiana)
 20131213 09:40 217.2 (Indiana)
+20131214 18:55 245.0 (Germany, in transit (no scale))
