@@ -330,4 +330,6 @@
 20131211 09:39 214.0 (Indiana)
 20131212 10:39 216.2 (Indiana)
 20131213 09:40 217.2 (Indiana)
-20131214 18:55 245.0 (Germany, in transit (no scale))
+20131214 18:55 245.0 (Germany, in transit, no scale)
+20131215 09:00 245.0 (Germany, no scale)
+20131216 14:35 216.0 (Germany, 97-98 kg)
