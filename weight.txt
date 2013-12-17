@@ -333,3 +333,4 @@
 20131214 18:55 245.0 (Germany, in transit, no scale)
 20131215 09:00 245.0 (Germany, no scale)
 20131216 14:35 216.0 (Germany, 97-98 kg)
+20131217 12:58 216.0 (Germany, 97-98 kg)
