@@ -8,4 +8,3 @@ commit: burndown.png
 
 burndown.png: burndown.gpi weight.txt
 	cat burndown.gpi weight.txt | gnuplot > burndown.png
-	cp burndown.png ~/Dropbox/LatestBurndown/
