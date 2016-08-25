@@ -6,8 +6,8 @@ set xdata time
 set timefmt "%Y%m%d"
 set xrange [ "20130101":"20161231" ]
 set format x "%b"
-set yrange [ 200:245 ]
+set yrange [ 195:245 ]
 
-set arrow from "20130101",245 to "20161231",200 lw 2 nohead
+set arrow from "20130101",245 to "20161231",195 lw 2 nohead
 
 plot '-' using 1:3 notitle with lines lw 2
