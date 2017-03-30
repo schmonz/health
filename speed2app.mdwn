@@ -1,0 +1,11 @@
+# Speed2App idea
+
+My thoughts from right now: start with native iOS, Objective C,
+iPhone-only, store data locally, the one workout routine I’m currently
+doing, one gym only (so exactly one set of settings per exercise),
+prompt me for the next machine I need to find, tell me the settings and
+weights, make it butt-simple to enter the number of reps I just did,
+prompt for the next machine, end today’s workout, tell me when my next
+workout should be.
+
+## Stories
