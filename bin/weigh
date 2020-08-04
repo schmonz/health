@@ -12,9 +12,15 @@ usage() {
 	die 77 "usage:" $(basename $0) "<weight> [optionalcomment]"
 }
 
+kg2lb() {
+	local _kg
+	_kg=$1
+	printf "%0.1f\n" $(echo "${_kg} * 2.2046" | bc)
+}
+
 generate_entry() {
 	local _date _time _weight _optionalcomment
-	_weight=$1;		shift
+	_weight=$(kg2lb $1);	shift
 	_optionalcomment=$1;	shift
 	_date=$(date '+%Y%m%d')
 	_time=$(date '+%H:%M')
