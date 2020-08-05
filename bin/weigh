@@ -44,7 +44,7 @@ main() {
 	[ $# -ge 1 ] || usage
 	cd $(top_of_repo)
 	generate_entry "$@" >> 'weight.txt'
-	commit_and_push
+	#commit_and_push
 }
 
 main "$@"
