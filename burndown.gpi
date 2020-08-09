@@ -5,10 +5,10 @@ set border 3
 
 set xdata time
 set timefmt "%Y%m%d"
-set xrange [ "20200801":"20201231" ]
+set xrange [ "20200701":"20201231" ]
 set format x "%b"
-set yrange [ 195:245 ]
+set yrange [ 190:250 ]
 
-set arrow from "20200801",245 to "20201231",195 lw 1 nohead
+set arrow from "20200701",250 to "20201231",190 lw 1 nohead
 
 plot '-' using 1:3 notitle with points pt 2 ps 1
